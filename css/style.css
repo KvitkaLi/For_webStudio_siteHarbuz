@@ -59,3 +59,6 @@ footer {
     padding: 30px;
     color: rgb(252, 252, 252);
 }
+.img-text{
+    display: inline-block;
+}
