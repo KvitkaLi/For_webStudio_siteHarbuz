@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans+Narrow&family=Roboto:wght@300&display=swap');
+header {
+   width: 100%; 
+   height: 120px;
+   background: #B4FFA8;
+	margin: 0;
+	padding: 0;
+}
+.content{
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    width: 80%;
+	height: 100px;
+}
+
+li {
+    float: right; /* вирівнюємо блок по горизонталі по правому боку*/
+    padding-right: 15px;
+    font-size: 18px;
+    color: black;
+}
+.logo {
+    width: 150px;
+    height: 70px;
+	margin: 10px 0 0 10px;
+}
+.logo_name {
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    font-size: 36px;
+    color: #000000;
+	margin: 20px 0 20px 80px;
+}
+.text-title {
+    font-family: 'Lobster', cursive;
+    float: right;
+    font-size: 22px;
+    color: #000000;
+    padding-top: 20px;
+}
+.content-img{ 
+    text-align: center; /* блок з малюнками ставимо по-середині*/
+	width: 100%;
+}
+.text-text{
+	width: 90%;
+	margin: 0 auto;
+}
+footer {
+    width: 100%;
+    height: 89px;
+    background: #389D27;
+	margin: 20px 0 0 0;
+}
+.praise{
+    font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	padding: 5px;
+}
+.text-text,
+.item-footer{
+    font-family: 'Roboto', sans-serif;
+}
+.item-footer{
+    text-align: center;
+    padding: 30px;
+    color: rgb(252, 252, 252);
+}
+.img-text{
+    display: inline-block;
+}
+img{
+	width: 300px;
+}
+p.others{
+	line-height: 1.5em;
+}
